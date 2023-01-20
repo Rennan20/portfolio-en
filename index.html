@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <style>
+      .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+
+      .image-div {
+        flex: 1;
+        margin: 0px 10px;
+        display: block;
+        border-bottom: none;
+      }
+
+      .image-div img {
+        width: 67px;
+        height: 64px;
+        outline: none;
+        text-decoration: none;
+      }
+
+      .certify {
+        color: rgb(222, 222, 227);
+        text-align: center;
+      }
+
+      .image-container p {
+        margin-top: 10px;
+      }
+
+      .container a {
+        text-decoration: none;
+        outline: none;
+      }
+      img {
+        transform: perspective(500px) rotateX(5deg) rotateY(5deg);
+        transition: transform 0.3s;
+        width: auto;
+        height: auto;
+        box-shadow: 2px 2px 3px 0px #ccc;
+      }
+      img:hover {
+        transform: rotateX(0deg) rotateY(0deg) translate(-5px, -5px);
+      }
+    </style>
+    <title>Meu Portfólio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <section id="header">
+      <header>
+        <span class="image avatar"
+          ><img src="images/avatar.jpg" alt="avatar"
+        /></span>
+        <h1 id="logo">Rennan Silva</h1>
+        <p>
+          Sou um desenvolvedor web em progresso<br />
+          e essa é a apresentação dos meu projetos de estudo e competências.
+        </p>
+      </header>
+      <nav id="nav">
+        <ul>
+          <li><a href="#one" class="active">Sobre Mim</a></li>
+          <li><a href="#two">Minhas competências</a></li>
+          <li><a href="#three">Projetos de estudo</a></li>
+          <li><a href="#four">Contato</a></li>
+        </ul>
+      </nav>
+      <footer>
+        <ul class="icons">
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/rennan-silva-47831a186/"
+              class="icon brands fab fa-linkedin"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/r_ennan_silva/"
+              class="icon brands fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://github.com/Rennan20"
+              class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="mailto:jrennan99@gmail.com?subject=Email from website&body=Hello, I found you on your website and I would like to ask you some questions."
+              class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+      </footer>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one">
+          <div class="image main" data-position="center">
+            <img src="images/banner.jpg" alt="banner" />
+          </div>
+          <div class="container">
+            <header class="major">
+              <h2>Introdução</h2>
+
+              <p style="color: #ccc">
+                Olá, sou Rennan, desenvolvedor web iniciante. Sempre fui um
+                autodidata apaixonado por tecnologia, cheguei a cursar
+                Mecatrônica Industrial e me interessei pela área de programação
+                durante o curso, onde vi o básico de C++ e lógica de programção.
+                Busquei me aprofundar em HTML e CSS durante o tempo livre, logo
+                descobri o JavaScript, e sempre que possivel eu pescava algum
+                conhecimento online, tanto no youtube quanto em plataformas como
+                a
+                <a
+                  target="_blank"
+                  href="https://www.w3profile.com/RennanSilva"
+                  style="color: rgba(25, 206, 100, 0.85)"
+                  >w3schools</a
+                >.
+              </p>
+            </header>
+            <p style="color: #ccc">
+              Estou em processo de migração de carreira, após deixar meu emprego
+              como mecânico automotivo, foquei 100% nos estudos que
+              complementavam meus conhecimentos prévios em CSS, HTML e
+              JavaScript.
+            </p>
+          </div>
+        </section>
+
+        <!-- Two -->
+        <section id="two">
+          <div class="container">
+            <h3 style="color: #ccc">Minhas competências</h3>
+            <div class="image-container">
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1ZhJXcYMiLgG2HPOYvCQYm8WwZUkUlrS5/view"
+              >
+                <div class="image-div">
+                  <img src="images/css-logo.ico.png" alt="CSS" />
+                </div>
+              </a>
+              <p style="color: #ccc">CSS3</p>
+
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1ZhJXcYMiLgG2HPOYvCQYm8WwZUkUlrS5/view"
+              >
+                <div class="image-div">
+                  <img src="images/html-logo.png" alt="HTML" />
+                </div>
+              </a>
+              <p style="color: #ccc">HTML5</p>
+
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1f706Ca05ny5icbBn-kISYGr9o1OJTKYA/view"
+              >
+                <div class="image-div">
+                  <img src="images/javascirpt-logo.png" alt="JS" />
+                </div>
+              </a>
+              <p style="color: #ccc">JavaScript</p>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1bfWtce5IB7ba8LLVFPbyu_bG54D-9JL5/view"
+              >
+                <div class="image-div">
+                  <img src="images/reactjs-logo.png" alt="React" />
+                </div>
+              </a>
+              <p style="color: #ccc">React</p>
+
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1jz0bErmAjIA9pVxggibGtt_b2aET0YJ4/view"
+              >
+                <div class="image-div">
+                  <img src="images/typescript-logo.png" alt="TS" />
+                </div>
+              </a>
+              <p style="color: #ccc">TypeScript</p>
+            </div>
+          </div>
+          <p class="certify">
+            Os ícones são clicavéis, neles pode-se observar o progresso dos
+            módulos na plataforma
+            <a
+              target="_blank"
+              href="https://b7web.com.br/"
+              style="color: #0265a2; font-weight: bold"
+              >B7Web</a
+            >.
+          </p>
+          <div style="text-align: center">
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1U1LUQ8syeYl3sWuaV28AdzDrhE7L9uPO/view"
+              style="color: rgb(237, 32, 182)"
+              >Certificado CSS da
+              <strong style="color: rgb(237, 32, 182)">Scaler</strong> </a
+            ><br />
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1d3jQJRY9PSznDp8Q2dlCcCHX--hxyA1F/view"
+              style="color: rgb(237, 32, 182)"
+              >Certificado HTML da
+              <strong style="color: rgb(237, 32, 182)">Scaler</strong> </a
+            ><br />
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1NwVI5I7OTLkC5oVQELQgSXTmD1XT7HN1/view"
+              style="color: rgb(237, 32, 182)"
+              >Certificado JavaScript da
+              <strong style="color: rgb(237, 32, 182)">Scaler</strong>
+            </a>
+          </div>
+        </section>
+        <section id="two">
+          <div class="container">
+            <h4 style="color: #ccc">Possuo conhecimento em</h4>
+            <div class="image-container">
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1QRETdAiLb1lngRp-7Z5pfle8XJpfWG5Y/view"
+              >
+                <div class="image-div">
+                  <img src="images/git-logo.png" alt="Git" />
+                </div>
+              </a>
+              <p style="color: #ccc">Git</p>
+
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1vPzXSQmeIatO7tTEOBJejkzu_c63W4jQ/view"
+              >
+                <div class="image-div">
+                  <img src="images/database-logo.png" alt="Database" />
+                </div>
+              </a>
+              <p style="color: #ccc">Banco de dados</p>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1CGrnieRCmS4FcF3YU6GtNMh1tGc9Vuih/view"
+              >
+                <div class="image-div">
+                  <img src="images/nodejs-logo.png" alt="Node" />
+                </div>
+              </a>
+              <p style="color: #ccc">NodeJs</p>
+
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1YgQ1bjenrkayh-RQcVmXu60zEoNHCNB4/view"
+              >
+                <div class="image-div">
+                  <img src="images/nextjs-logo.png" alt="Next" />
+                </div>
+              </a>
+              <p style="color: #ccc">NextJs</p>
+            </div>
+          </div>
+          <p class="certify">
+            Os ícones são clicavéis, neles pode-se observar o progresso dos
+            módulos na plataforma
+            <a
+              href="https://b7web.com.br/"
+              style="color: #0265a2; font-weight: bold"
+              >B7Web</a
+            >.
+          </p>
+        </section>
+
+        <!-- Three -->
+        <section id="three">
+          <div class="container">
+            <h3 style="color: #ccc">Projetos de estudo</h3>
+            <p style="color: #ccc">
+              Alguns dos projetos de estudo com maior atuação minha, seja com
+              modificações no layout até funcionalidades internas. Dos mais
+              simples aos mais complexos, todos estão abertos para
+              implementações conforme meus conhecimentos evoluirem.
+            </p>
+            <div class="features">
+              <article>
+                <a
+                  target="_blank"
+                  href="https://rennan20.github.io/java-jogodavelha/"
+                  class="image"
+                  ><img src="images/velha.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4 style="color: #ccc">Jogo da Velha</h4>
+                  <p style="color: #ccc">
+                    Jogo da velha simples feito com JavaScript
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a
+                  target="_blank"
+                  href="https://rennan20.github.io/java-quiz/"
+                  class="image"
+                  ><img src="images/quiz.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4 style="color: #ccc">Quiz</h4>
+                  <p style="color: #ccc">Quiz com questões sobre JavaScript</p>
+                </div>
+              </article>
+              <article>
+                <a
+                  target="_blank"
+                  href="https://rennan20.github.io/java-form/"
+                  class="image"
+                  ><img src="images/form.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4 style="color: #ccc">Validador de Formulário</h4>
+                  <p style="color: #ccc">
+                    Validador de formulário simples feito com JavaScript
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a
+                  target="_blank"
+                  href="https://rennan20.github.io/java-clima/"
+                  class="image"
+                  ><img src="images/clima.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4 style="color: #ccc">Visualizador climático</h4>
+                  <p style="color: #ccc">
+                    Visualizador climático que trabalha com requisições
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a
+                  target="_blank"
+                  href="https://react-calc-imc-snowy.vercel.app/"
+                  class="image"
+                  ><img src="images/calc-imc.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4 style="color: #ccc">Calculador de IMC</h4>
+                  <p style="color: #ccc">
+                    Calculadora IMC simples que trabalha com React
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a
+                  target="_blank"
+                  href="https://expense-manager-beryl.vercel.app/"
+                  class="image"
+                  ><img src="images/expense.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4 style="color: #ccc">Gerenciador Financeiro</h4>
+                  <p style="color: #ccc">
+                    Gerenciador financeiro feito em React
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a
+                  target="_blank"
+                  href="https://rpg-tag.vercel.app/"
+                  class="image"
+                  ><img src="images/minirpg.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4 style="color: #ccc">Mini RPG</h4>
+                  <p style="color: #ccc">
+                    Interação de diversos elementos no estilo RPG, feito em
+                    React
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Four -->
+        <section id="four">
+          <div class="container">
+            <h3 style="text-align: center; color: #ccc">Entre em contato!</h3>
+
+            <form method="post" action="#">
+              <div class="row gtr-uniform">
+                <div class="col-6 col-12-xsmall">
+                  <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="col-6 col-12-xsmall">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Message"
+                    rows="6"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <ul class="actions">
+                    <li>
+                      <input
+                        type="submit"
+                        class="primary"
+                        value="Send Message"
+                      />
+                    </li>
+                    <li><input type="reset" value="Reset Form" /></li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
