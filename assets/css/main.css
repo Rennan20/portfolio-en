@@ -1948,7 +1948,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #4acaa8;
+  border-color: #e4e4e4;
 }
 
 select {
@@ -2053,7 +2053,7 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #4acaa8;
+  border-color: #ffffff;
 }
 
 input[type="checkbox"] + label:before {
